@@ -28,6 +28,13 @@ body {
 h1, h2, h3 {
   color: var(--theme-color);
   border-bottom: dashed 0.1em var(--theme-color);
+ background-color: #fff; /* ← 追加 */
+  padding: 0.5rem;        /* ← 文字の周りに少し余白を入れると見やすくなります */
+}
+/* 段落（pタグ）やリストの背景も白にする場合（CSSの一番下などに追加） */
+p, ul {
+  background-color: #fff;
+  padding: 1rem;
 }
 
 /* --------------------
