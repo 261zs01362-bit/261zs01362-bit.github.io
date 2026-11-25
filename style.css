@@ -31,13 +31,14 @@ h1, h2, h3 {
  background-color: #fff; /* ← 追加 */
   padding: 0.5rem;        /* ← 文字の周りに少し余白を入れると見やすくなります */
 }
-
-.white-box {
-  display: inline-block;    /* 文字の幅に合わせる */
-  background-color: #fff;   /* 背景を白にする */
-  border: 2px solid #fff;   /* 白い枠線をつける */
-  padding: 0.3em 0.8em;     /* 文字の周りの余白 */
+/* 文章（p）とリストの各項目（li）を文字幅の白背景にする */
+p, li {
+  background-color: #fff;
+  padding: 0.2em 0.6em;
+  width: fit-content;
+  margin-bottom: 0.4em; /* 項目同士の縦の隙間 */
 }
+
 
 /* --------------------
         リンク
