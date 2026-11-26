@@ -28,15 +28,14 @@ body {
 h1, h2, h3 {
   color: var(--theme-color);
   border-bottom: dashed 0.1em var(--theme-color);
- background-color: #fff; /* ← 追加 */
-  padding: 0.5rem;        /* ← 文字の周りに少し余白を入れると見やすくなります */
+ background-color: #fff; 
+  padding: 0.5rem;        
 }
-/* 文章（p）とリストの各項目（li）を文字幅の白背景にする */
 p, li {
   background-color: #fff;
   padding: 0.2em 0.6em;
   width: fit-content;
-  margin-bottom: 0.4em; /* 項目同士の縦の隙間 */
+  margin-bottom: 0.4em; 
 }
 
 
